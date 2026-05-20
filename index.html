@@ -93,6 +93,20 @@
         }
         .nav a:hover { text-decoration: underline; }
     </style>
+    <!-- Wahoo OAuth bridge — when the rider returns from Wahoo's auth
+         screen, the URL carries `?code=...`. Bounce that into the
+         Velo iOS app via the custom URL scheme so ASWebAuthentication
+         Session can intercept the callback. Visitors arriving without
+         a code (i.e. just reading the privacy policy) see the page
+         normally. -->
+    <script>
+        (function () {
+            var p = new URLSearchParams(window.location.search);
+            if (p.get('code')) {
+                window.location.replace('velo-wahoo://oauth' + window.location.search);
+            }
+        })();
+    </script>
 </head>
 <body>
     <div class="container">
