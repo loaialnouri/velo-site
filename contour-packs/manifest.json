@@ -2,6 +2,21 @@
   "version": 1,
   "packs": [
     {
+      "regionID": "gb",
+      "name": "United Kingdom",
+      "countryCode": "GB",
+      "url": "https://loaialnouri.github.io/velo-site/contour-packs/gb.contourpack",
+      "sizeBytes": 81551048,
+      "checksum": "af6c1e5f1c27f133b4abacec0a10e3db854d6e00f75bc2d56605d6a62014a9cd",
+      "minLat": 49.9,
+      "maxLat": 60.9,
+      "minLon": -8.6,
+      "maxLon": 1.8,
+      "contourIntervalMeters": 25,
+      "indexIntervalMeters": 100,
+      "demSource": "Copernicus GLO-30"
+    },
+    {
       "regionID": "be",
       "name": "Belgium",
       "countryCode": "BE",
