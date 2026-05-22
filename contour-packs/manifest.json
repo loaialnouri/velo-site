@@ -1,4 +1,65 @@
 {
   "version": 1,
-  "packs": []
+  "packs": [
+    {
+      "regionID": "be",
+      "name": "Belgium",
+      "countryCode": "BE",
+      "url": "https://loaialnouri.github.io/velo-site/contour-packs/be.contourpack",
+      "sizeBytes": 45744324,
+      "checksum": "d8a22ce783bb521a0af74573d5a96248df40b6dced68185cd2ac10fb38f707e2",
+      "minLat": 49.5,
+      "maxLat": 51.5,
+      "minLon": 2.5,
+      "maxLon": 6.4,
+      "contourIntervalMeters": 10,
+      "indexIntervalMeters": 50,
+      "demSource": "Copernicus GLO-30"
+    },
+    {
+      "regionID": "ch",
+      "name": "Switzerland",
+      "countryCode": "CH",
+      "url": "https://loaialnouri.github.io/velo-site/contour-packs/ch.contourpack",
+      "sizeBytes": 37068884,
+      "checksum": "817644bb9a3af29669519093dc51522f108c5863f30e0b51978e73987881e898",
+      "minLat": 45.8,
+      "maxLat": 47.8,
+      "minLon": 5.9,
+      "maxLon": 10.5,
+      "contourIntervalMeters": 50,
+      "indexIntervalMeters": 200,
+      "demSource": "Copernicus GLO-30"
+    },
+    {
+      "regionID": "lu",
+      "name": "Luxembourg",
+      "countryCode": "LU",
+      "url": "https://loaialnouri.github.io/velo-site/contour-packs/lu.contourpack",
+      "sizeBytes": 3937384,
+      "checksum": "70d9eb5affcb211c9b41d058a519e214d43b8284e43b2d8b1144d1cb04cd3f25",
+      "minLat": 49.4,
+      "maxLat": 50.2,
+      "minLon": 5.7,
+      "maxLon": 6.5,
+      "contourIntervalMeters": 20,
+      "indexIntervalMeters": 100,
+      "demSource": "Copernicus GLO-30"
+    },
+    {
+      "regionID": "nl",
+      "name": "Netherlands",
+      "countryCode": "NL",
+      "url": "https://loaialnouri.github.io/velo-site/contour-packs/nl.contourpack",
+      "sizeBytes": 17524708,
+      "checksum": "f299967c3efaa7a7c1cac9297cd4028ae931ed43fd83ee66d627df8a2068473d",
+      "minLat": 50.7,
+      "maxLat": 53.6,
+      "minLon": 3.4,
+      "maxLon": 7.2,
+      "contourIntervalMeters": 10,
+      "indexIntervalMeters": 50,
+      "demSource": "Copernicus GLO-30"
+    }
+  ]
 }
